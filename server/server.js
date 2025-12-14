@@ -41,9 +41,8 @@ app.post("/api/explain", async (req, res) => {
         const messages = [
             {
                 role: "user",
-                content: `Please explain this ${language || ""} 
-                code in simple terms: \n\n\`\`\`\${language || ""}\n${code}
-                \n\`\`\``,
+                content: `Please explain this ${language || ""
+                    } code in simple terms:\n\n\`\`\`${language || ""}\n${code}\n\`\`\``,
             },
         ];
 

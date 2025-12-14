@@ -1,10 +1,12 @@
-
+import CodeEntry from "./components/CodeEntry";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold text-center">
-      السلام عيكم ورحمة الله وبركاته
-    </h1>
+    <main className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
+      <div className="w-full max-w-4xl">
+        <CodeEntry />
+      </div>
+    </main>
   );
 };
 
